@@ -1,0 +1,6 @@
+@font-face {
+    font-family: inter;
+    src: url(./Inter-VariableFont_slnt\,wght.ttf), format('.ttf');
+    src: url(./Inter-VariableFont_slnt\,wght.woff), format('.woff');
+    src: url(./Inter-VariableFont_slnt\,wght.woff2), format('.woff2');
+}

@@ -353,3 +353,81 @@ header{
 	margin-bottom: 18px;
 }
 /* b section end */
+
+/* c and d section */
+
+.cd-box{
+	max-width: 1180px;
+	width: 100%;
+	height: 260px;
+	display: flex;
+	margin: auto;
+	margin-top: 20px;
+}
+.cd-card{
+	max-width: 281px;
+	width: 100%;
+	height: 254px;
+}
+.cd-card img{
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	z-index: 1;
+}
+.cd-card button{
+	height: 40px;
+	padding: 0px 16px;
+	border-radius: 6px;
+	border: 1px solid var(--white, #FFF);
+	background: var(--white, #FFF);
+	box-shadow: 0px 1px 2px 0px rgba(56, 56, 56, 0.08);
+	z-index: 2;
+	top: 90px;
+	left: 20px;
+}
+.b-button{
+	top: 120px !important;
+}
+.cd-card span{
+	color: var(--base-color-dark, #1C1C1C);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 26px;
+	letter-spacing: -0.2px;
+	width: 154px;
+	z-index: 2;
+	top: 20px;
+	left: 20px;
+}
+.cd-cardbox{
+	display: flex;
+	padding: 20px 0px 0px 16px;
+	width: 224px;
+	/* width: 100% !important; */
+	height: 127px;
+	border: 1px solid rgba(224, 224, 224, 1);
+	background-color: #FFF;
+}
+.cd-cardbox img{
+	max-width: 82px;
+	width: 100%;
+	height: 82px;
+	object-fit: contain;
+	margin-top: auto;
+	margin-left: auto;
+	padding-bottom: 3px;
+}
+.cd-cardbox h4{
+	color: var(--base-color-dark, #1C1C1C);;
+	font-size: 16px;
+	font-weight: 400;
+}
+.cd-cardbox span{
+	color: var(--gray-500, #8B96A5);
+	font-size: 13px;
+	font-weight: 400;
+	display: flex;
+	flex-direction: column;
+}
+/* c and d section end */

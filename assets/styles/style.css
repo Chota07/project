@@ -573,6 +573,7 @@ header{
 	max-width: 1180px;
 	width: 100%;
 	margin: auto;
+	margin-bottom: 30px;
 }
 .ri h3{
 	margin-top: 20px;
@@ -599,5 +600,26 @@ header{
 .ri-card img{
 	width: 200px;
 	height: 200px;
+	object-fit: none;
 	margin: auto;
+	margin-bottom: 10px;
+	margin-top: 9px;
 }
+.ric-price{
+	color: var(--base-color-dark, #1C1C1C);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+	margin-left: 16px;
+}
+.ric-name{
+	width: 186px;
+	height: 53px;
+	color: var(--gray-500, #8B96A5);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	margin-left: 16px;
+}
+/* recommended items section end */

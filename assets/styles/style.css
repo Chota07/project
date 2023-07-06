@@ -148,7 +148,7 @@ header{
 	border-radius: 8px;
 	border: 1px solid rgba(222, 226, 231, 1);
 	background-color: white;
-	padding: 20px 20px 20px 14px;
+	padding: 20px 20px 15px 14px;
 	margin-bottom: 30px;
 }
 .main-sec-list{
@@ -171,7 +171,7 @@ header{
 .main-sec-img{
 	max-width: 664px;
 	width: 100%;
-	height: 373px;
+	height: 363px;
 	margin: 0px 20px 0px 11px;
 }
 .main-sec-img img{
@@ -261,3 +261,95 @@ header{
 	background-color: rgba(85, 189, 195, 1);
 }
 /* main section end */
+
+/* section b */
+.b-sec{
+	max-width: 1180px;
+	width: 100%;
+	height: 240px;
+	background-color: rgba(255, 255, 255, 1);
+	border: 1px solid rgba(222, 226, 231, 1);
+	border-radius: 6px;
+	margin: auto;
+	padding: 1px;
+}
+.count-card{
+	max-width: 45px;
+	width: 100%;
+	height: 50px;
+	border-radius: 4px;
+	background-color: #606060;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: 16px;
+	font-weight: 700;
+	color: #FFF;
+}
+#countdown{
+	gap: 6px;
+	margin-left: 20px
+}
+.count-span{
+	color: #FFF;
+	text-align: center;
+	font-size: 12px;
+	font-weight: 400;
+}
+.b-sec-card{
+	max-width: 179px;
+	width: 100%;
+	height: 235px;
+	align-items: center;
+	justify-content: center;
+	padding: 8px 19px 17px 20px;
+	background-color: rgba(255, 255, 255, 1);
+	border-left: 1px solid rgba(222, 226, 231, 1);
+}
+.b-sec-card img{
+	max-width: 140px;
+	width: 100%;
+	height: 140px;
+	object-fit: contain;
+}
+.b-sec-card h3{
+	color: var(--dark, #1C1C1C);
+	text-align: center;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	margin-top: 11px;
+}
+.b-sec-card span{
+	margin-top: 7px;
+	height: 28px;
+	padding: 3px 13px 4px 13px;
+	justify-content: center;
+	align-items: center;
+	border-radius: 29px;
+	background: #FFE3E3;
+	color: rgba(235, 0, 27, 1);
+}
+.count-box{
+	max-width: 281px;
+	width: 100%;
+}
+.b-sec-span{
+	color: var(--base-color-dark, #1C1C1C);
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 28px;
+	letter-spacing: -0.2px;
+	margin-top: 20px;
+	margin-left: 20px
+}
+.b-sec-span-b{
+	color: var(--gray-500, #8B96A5);
+	font-size: 16px;
+	font-weight: 400;
+	margin-left: 20px;
+	margin-bottom: 18px;
+}
+/* b section end */

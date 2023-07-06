@@ -799,3 +799,88 @@ header{
 	background: var(--primary-gradient, linear-gradient(180deg, #127FFF 0%, #0067FF 100%));
 }
 /* subscribe section end */
+
+/* footer */
+
+.footer-top{
+	width: 100%;
+	height: 256px;
+	padding: 40px 100px 40px 129px;
+	background-color: white;
+	border-bottom: 1px solid rgba(222, 226, 231, 1);
+	justify-content: space-between;
+}
+.ftf-box{
+	align-items: baseline;
+	margin-right: 61px;
+}
+.main-ico{
+	height: 46px;
+	padding: 1px 23.786px 1px 0px;
+	margin-bottom: 15px;
+}
+.ftm-span{
+	max-width: 276px;
+	color: var(--gray-600, #505050);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+}
+.ftm-box{
+	margin-top: 16px;
+	gap: 10px;
+}
+.ft-card{
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+}
+.ft-card h4{
+	margin-bottom: 10px;
+	color: var(--dark, #1C1C1C);
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 22px;
+}
+.ft-card li{
+	color: var(--gray-500, #8B96A5);
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+	margin-bottom: 3px;
+}
+.app-store{
+	margin-bottom: 8px;
+}
+.footer-bot{
+	width: 100%;
+	height: 68px;
+	background-color: rgba(239, 242, 244, 1);
+	padding: 23px 136px 0px 128px;
+	justify-content: space-between;
+}
+.us-flag{
+	width: 24px;
+	height: 17px;
+	margin-right: 6px;
+}
+.expand-up{
+	width: 24px;
+	height: 24px;
+}
+.footer-bot div{
+	display: flex;
+	align-items: center;
+	height: 24px;
+}
+.footer-bot span{
+	color: var(--base-color-gray-800, #606060);
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: -0.2px;
+}
+/* footer done */
